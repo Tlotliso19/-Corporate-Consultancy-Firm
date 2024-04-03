@@ -1,15 +1,68 @@
 
   {% extends "home.html" %}
   {% block content %} 
-  <body>
 
+<style>
+  .services{
+  color:blue;
+    content-align: center;
+    justify-content: center;
+    font-size: 20px;}
+
+  .container{margin-left:50px;
+            padding-left:50px;}
+  
+  h1{ font-family: 'Montserrat', sans-serif;
+     font-size: 2.5rem; 
+     font-weight: 700;
+    justify-content:center;
+    align-content:center;}
+  
+  .products{
+   display: grid;
+   align-items: center; 
+   grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 5px;}
+
+  
+</style>
+ <div class='container'> <body >
+<h1> Services Offered </h1>
+
+   <div class= 'products'> <img src='.git/static/Business-Process-Outsourcing-BPO-What-It-Is-How-its-Done-and-the-Benefits-of-Doing-It-Right_2.webp'>  <div class='services'> <h2> Business Process Outsourcing</h2>
+    <ol>
+      <li>Bookkeeping and Accounting </li>
+      <li>Tax Returns preparations</li>
+      <li>Accounting systems Cofigurations </li>
+    </ol>
+      </div> </div>
+    <div class= 'products'>  <div class='services'> <h2> Operations and change Managment Consulting</h2>
+      <ol>
+        <li>Business Process Re-engeneering</li>
+        <li>Process Otimization</li>
+        <li>Change Mapping and Management </li>
+      </ol>
+    
+    </div>  <img src='.git/static/change management.jpeg'>
+    </div>
+
+   <div class= 'products'> <img src='https://replit.com/@tlotlisomakobos/-Corporate-Consultancy-Firm#.git/static/data%20analysis.jpeg'>  <div class='services'> <h2> Data Analysis and Modeling</h2>
+      <ol>
+        <li>Credit risk and fruad detection models</li>
+        <li>Data Cleansing and Preprocessing </li>
+        <li>Machine Learning and Data Mining  </li>
+      </ol>
+    
+    
+    
+      </div></div>
 
 
 
 
 
     
-  </body>
+  </body></div>
 
   {% endblock %}
 

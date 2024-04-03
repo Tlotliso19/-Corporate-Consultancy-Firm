@@ -10,7 +10,7 @@
 
   #services{
     margin:auto;
-   display: inline-flex;
+   display: inline-block;
 color:blue;
   content-align: center;
   display: flex;
