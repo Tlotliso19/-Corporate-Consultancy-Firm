@@ -10,6 +10,8 @@ packages = [{include = "repl_nix_corporate_consultancy_firm"}]
 python = "^3.10"
 flask = "^3.0.2"
 psycopg2-binary = "^2.9.9"
+flask-nav = "^0.6"
+flask-navigation = "^0.2.0"
 
 
 [build-system]
