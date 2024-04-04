@@ -13,6 +13,10 @@ def services():
 @app.route('/Book-consultation')
 def book():
   return render_template( 'index.html')
+
+@app.route('/callender')
+def calender():
+  return render_template('calender.html')
   
 if __name__=='__main__':
   app.run(host='0.0.0.0',debug=True)

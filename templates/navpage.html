@@ -1,13 +1,15 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+   
+    
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon">  <a class="navbar-brand" href="#">Navbar</a></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="{{url_for('home')}}"">Home</a>
+          <a class="nav-link active" aria-current="page" href="{{url_for('home')}}">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href=" {{url_for('book')}}"">Book Consultation</a>
@@ -22,3 +24,18 @@
     </div>
   </div>
 </nav>
+<div id="nav"> <img src='static/images/logo.png' alt="logo" width="200" height="200"> <br> <br> 
+  <ul  class='ul'>
+     <li><a href="index.html" class='inside'>Social Media</a></li>
+     <li><a href="about.html" class='inside'>Media Galllery</a></li>
+     <li>
+       <button ><a href="{{url_for('calender')}}" class="btn btn-primary">
+         Calender
+        </a> </button>
+     
+     </li>
+     <li><a href="support.html" class='inside'>FAQ</a></li>
+   <li> <button> <a href="mailto:tlotlisomakoboshane917@gmail.com" class="email-button">Contact Us</a> </button> </li>
+     
+  </ul>
+</div>
